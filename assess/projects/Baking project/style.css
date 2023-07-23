@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 5rem;
+}
+
+.tife {
+    color: midnightblue;
+}
+
+.logo {
+    width: 100px;
+    border: 2px solid saddlebrown;
+    border-radius: 50%;
+}
+.tile-image {
+    height: 200px;
+    width: 300.297px;
+    float: left;
+    margin-right: 50px;
+}
+.card {
+    width: 45%;
+}
+.right {
+    float: right;
+    margin-top: 30px;
+}
+.left {
+    float: left;
+    margin-top: 30px;
+}
+.footer {
+    clear: both;
+    text-align: center;
+    margin-top: 100px;
+}
+.hr {
+    clear: both;
+}
+
+@media (max-width:680px) {
+    .logo {
+        width: 50px;
+    border: 2px solid saddlebrown;
+    border-radius: 50%;
+    }
+    h1 {
+        font-family: 'Lilita One', cursive;
+    font-size: 3.5rem;
+    }
+    .card img {
+        display: inline;
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+
+    }
+    .card {
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+}
